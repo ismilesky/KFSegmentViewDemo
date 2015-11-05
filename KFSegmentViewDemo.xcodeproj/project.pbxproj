@@ -15,6 +15,10 @@
 		57D6E2D31BE9E7B100211CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D6E2D11BE9E7B100211CF2 /* LaunchScreen.storyboard */; };
 		57D6E2DE1BE9E7B100211CF2 /* KFSegmentViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D6E2DD1BE9E7B100211CF2 /* KFSegmentViewDemoTests.m */; };
 		57D6E2E91BE9E7B200211CF2 /* KFSegmentViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D6E2E81BE9E7B200211CF2 /* KFSegmentViewDemoUITests.m */; };
+		57D6E2FA1BE9E84B00211CF2 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D6E2F71BE9E84B00211CF2 /* AViewController.m */; };
+		57D6E2FB1BE9E84B00211CF2 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D6E2F91BE9E84B00211CF2 /* BViewController.m */; };
+		57D6E3051BE9EAE700211CF2 /* UIImage+Fit.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D6E3041BE9EAE600211CF2 /* UIImage+Fit.m */; };
+		57D6E3091BE9EAF200211CF2 /* SegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D6E3081BE9EAF200211CF2 /* SegmentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		57D6E2E41BE9E7B100211CF2 /* KFSegmentViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KFSegmentViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D6E2E81BE9E7B200211CF2 /* KFSegmentViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFSegmentViewDemoUITests.m; sourceTree = "<group>"; };
 		57D6E2EA1BE9E7B200211CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D6E2F61BE9E84B00211CF2 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		57D6E2F71BE9E84B00211CF2 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		57D6E2F81BE9E84B00211CF2 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		57D6E2F91BE9E84B00211CF2 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		57D6E3031BE9EAE600211CF2 /* UIImage+Fit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Fit.h"; sourceTree = "<group>"; };
+		57D6E3041BE9EAE600211CF2 /* UIImage+Fit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Fit.m"; sourceTree = "<group>"; };
+		57D6E3071BE9EAF200211CF2 /* SegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentView.h; sourceTree = "<group>"; };
+		57D6E3081BE9EAF200211CF2 /* SegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +115,14 @@
 			children = (
 				57D6E2C61BE9E7B100211CF2 /* AppDelegate.h */,
 				57D6E2C71BE9E7B100211CF2 /* AppDelegate.m */,
+				57D6E3061BE9EAF200211CF2 /* SegmentView */,
+				57D6E3021BE9EAE600211CF2 /* Categary */,
 				57D6E2C91BE9E7B100211CF2 /* ViewController.h */,
 				57D6E2CA1BE9E7B100211CF2 /* ViewController.m */,
+				57D6E2F61BE9E84B00211CF2 /* AViewController.h */,
+				57D6E2F71BE9E84B00211CF2 /* AViewController.m */,
+				57D6E2F81BE9E84B00211CF2 /* BViewController.h */,
+				57D6E2F91BE9E84B00211CF2 /* BViewController.m */,
 				57D6E2CC1BE9E7B100211CF2 /* Main.storyboard */,
 				57D6E2CF1BE9E7B100211CF2 /* Assets.xcassets */,
 				57D6E2D11BE9E7B100211CF2 /* LaunchScreen.storyboard */,
@@ -138,6 +156,24 @@
 				57D6E2EA1BE9E7B200211CF2 /* Info.plist */,
 			);
 			path = KFSegmentViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		57D6E3021BE9EAE600211CF2 /* Categary */ = {
+			isa = PBXGroup;
+			children = (
+				57D6E3031BE9EAE600211CF2 /* UIImage+Fit.h */,
+				57D6E3041BE9EAE600211CF2 /* UIImage+Fit.m */,
+			);
+			path = Categary;
+			sourceTree = "<group>";
+		};
+		57D6E3061BE9EAF200211CF2 /* SegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				57D6E3071BE9EAF200211CF2 /* SegmentView.h */,
+				57D6E3081BE9EAF200211CF2 /* SegmentView.m */,
+			);
+			path = SegmentView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D6E2FA1BE9E84B00211CF2 /* AViewController.m in Sources */,
 				57D6E2CB1BE9E7B100211CF2 /* ViewController.m in Sources */,
 				57D6E2C81BE9E7B100211CF2 /* AppDelegate.m in Sources */,
+				57D6E2FB1BE9E84B00211CF2 /* BViewController.m in Sources */,
 				57D6E2C51BE9E7B100211CF2 /* main.m in Sources */,
+				57D6E3091BE9EAF200211CF2 /* SegmentView.m in Sources */,
+				57D6E3051BE9EAE700211CF2 /* UIImage+Fit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KFSegmentViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fenghui.KFSegmentViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KFSegmentViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fenghui.KFSegmentViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
